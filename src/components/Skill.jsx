@@ -1,10 +1,8 @@
 const Skill = ({nombre, img}) => {
     return(
-        <div>
-            <div>
+        <div className="skill">
             <h4>{nombre}</h4>
-            <h4>{img}</h4>
-        </div>
+            <img src={img} alt={nombre}/>
         </div>
     )
 }

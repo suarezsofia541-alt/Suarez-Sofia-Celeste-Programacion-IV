@@ -1,0 +1,20 @@
+.containerHero{
+    margin: 10px;
+    padding: 70px;
+    background-color: rgb(242, 215, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.infoHero {
+    text-align: left;
+}
+
+.imgPerfil{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}

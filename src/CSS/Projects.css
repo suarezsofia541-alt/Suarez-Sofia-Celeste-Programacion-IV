@@ -1,0 +1,49 @@
+.containerProject {
+    margin: 10px;
+    padding: 50px;
+    background-color: rgb(242, 215, 168);
+    text-align: center;
+}
+
+.projectList {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.projectSpace {
+    margin: 30px;
+    width: 250px;
+}
+
+.projectCard {
+    background-color: rgb(217, 173, 119);;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.projectPreview {
+    background-color: rgb(246, 226, 204);
+    border-radius: 15px;
+}
+
+.projectInfo {
+    background-color: rgb(246, 226, 204);
+    border-radius: 15px
+}
+
+.projectPreview img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.projectPreview h4 {
+    margin: 15px;
+}
+
+.btnVerMas {
+    padding: 8px 15px;
+    border-color: rgb(217, 173, 119);
+    border-radius: 42px;
+}

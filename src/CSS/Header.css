@@ -1,0 +1,9 @@
+.containerNav{
+    justify-content: center;
+    margin:10px;
+    padding: 20px;
+    display:flex;
+    gap:100px;
+    background-color: rgb(217, 173, 119);
+}
+

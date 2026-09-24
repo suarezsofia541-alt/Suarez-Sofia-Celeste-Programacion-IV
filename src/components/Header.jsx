@@ -1,12 +1,14 @@
+import "../CSS/Header.css"
+
 const Header = () => {
     return(
         <div>
-            <nav>
-                <a href="#about">Sobre mi</a>
+           <nav className="containerNav">
+                <a href="#about" className="nav-link">Sobre mi</a>
                 <br/>
-                <a href="#skills">Habilidades</a>
+                <a href="#skills" className="nav-link">Habilidades</a>
                 <br/>
-                <a href="#projects">Proyectos</a>
+                <a href="#projects" className="nav-link">Proyectos</a>
             </nav>
         </div>
     )

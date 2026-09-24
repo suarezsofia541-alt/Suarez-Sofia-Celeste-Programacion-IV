@@ -5,19 +5,19 @@ const Project = ({nombre,descripcion,tecnologias,img}) => {
 
 
     return(
-        <div>
+        <div className="projectCard">
             {VerMas ? (
-                <div>
+                <div className="projectInfo">
                     <h4>{nombre}</h4>
                     <p>Descripcion: {descripcion}</p>
                     <p>Tecnologias: {tecnologias}</p>
-                    <button onClick={() => setVerMas(false)}>ver menos</button>
+                    <button className="btnVerMas" onClick={() => setVerMas(false)}>ver menos</button>
                 </div>
                 ) : (
-                <div>
-                    <h4>{img}</h4>
+                <div className="projectPreview">
+                    <img src={img} alt={nombre}/>
                     <h4>{nombre}</h4>
-                    <button onClick={() => setVerMas(true)}>ver mas</button>
+                    <button className="btnVerMas" onClick={() => setVerMas(true)}>ver mas</button>
                 </div>
             )}
         </div>

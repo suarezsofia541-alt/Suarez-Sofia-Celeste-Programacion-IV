@@ -1,0 +1,8 @@
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(246, 226, 204);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: medium;
+  color: #3A2B22; 
+}
