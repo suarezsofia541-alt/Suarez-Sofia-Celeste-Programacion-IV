@@ -1,4 +1,4 @@
-# Portfolio Personal - Tarabajo Practico 1- Sofia Celeste Suarez
+# Portfolio Personal - Trabajo Practico 1- Sofia Celeste Suarez
 Este proyecto es un portfolio personal desarrollado como  trabajo practico 1 de React, el portfolio está desarrollado como una aplicación de una sola página y está dividido en diferentes componentes reutilizables.
 
 En este se presenta: 
